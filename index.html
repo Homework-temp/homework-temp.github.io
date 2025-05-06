@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
+  <title>SimBa</title>
   <link rel="icon" type="image/x-icon" href="static/images/robot1.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -52,23 +52,33 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">SimBa: Simplicity Bias for Scaling Up Parameters in Deep Reinforcement Learning</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Qi Zhao</a><sup>*</sup>,</span>
+                <a href="https://joonleesky.github.io/" target="_blank">Hojoon Lee<sup>1,2*</sup></a>,</span>
               <span class="author-block">
-                <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Yi Liu</a><sup>*</sup>,</span>
+                <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Dongyoon Hwang<sup>1*</sup></a>,</span>
               <span class="author-block">
-                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Jiahua Pei</a><sup>*</sup>,</span>
+                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Donghu Kim<sup>1</sup></a>,</span>
               <span class="author-block">
-                <a href="FORTH AUTHOR PERSONAL LINK" target="_blank">Xufei Lv</a><sup>*</sup>,</span>
+                <a href="FORTH AUTHOR PERSONAL LINK" target="_blank">Hyunseung Kim<sup>1</sup></a>,</span>
               <span class="author-block">
-                <a href="FIFTH AUTHOR PERSONAL LINK" target="_blank">Yuanhao Chiang</a><sup>*</sup>,</span>
+                <a href="FIFTH AUTHOR PERSONAL LINK" target="_blank">Jun Jet Tai<sup>2,3</sup></a>,</span>
+              <span class="author-block">
+                <a href="FIFTH AUTHOR PERSONAL LINK" target="_blank">Kaushik Subramanian<sup>2</sup></a>,</span>
+              <span class="author-block">
+                <a href="FIFTH AUTHOR PERSONAL LINK" target="_blank">Peter R.Wurman<sup>2</sup></a>,</span>
+              <span class="author-block">
+                <a href="FIFTH AUTHOR PERSONAL LINK" target="_blank">Jaegul Choo<sup>1</sup></a>,</span>
+              <span class="author-block">
+                <a href="FIFTH AUTHOR PERSONAL LINK" target="_blank">Peter Stone<sup>2,4</sup></a>,</span>
+              <span class="author-block">
+                <a href="FIFTH AUTHOR PERSONAL LINK" target="_blank">Takuma Seno<sup>2</sup></a>,</span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name , 2025</span>
+                    <span class="author-block"><sup>1</sup>KAIST, <sup>2</sup>Sony AI, <sup>3</sup>Coventry University, <sup>4</sup>UT Austin<br>ICLR , 2025</span>
                     <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
                   </div>
 
@@ -76,7 +86,7 @@
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        <a href="https://openreview.net/pdf?id=jXLiDKsuDo" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -85,20 +95,9 @@
                       </a>
                     </span>
 
-                    <!-- Supplementary PDF link -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
-
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/SonyResearch/simba" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -106,17 +105,6 @@
                     <span>Code</span>
                   </a>
                 </span>
-
-                <!-- ArXiv abstract Link -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
             </div>
           </div>
         </div>
@@ -130,13 +118,9 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
+      <img src="static/images/overview.png">
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        When integrated SimBA with Soft Actor Critic (SAC), it matches the performance of state-of-the-art RL algorithms.
       </h2>
     </div>
   </div>
@@ -151,7 +135,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Recent advances in CV and NLP have been largely driven by scaling up the number of network parameters, despite traditional theories suggesting that larger networks are prone to overfitting. These large networks avoid overfitting by integrating components that induce a simplicity bias, guiding models toward simple and generalizable solutions. However, in deep RL, designing and scaling up networks have been less explored. Motivated by this opportunity, we present SimBa, an architecture designed to scale up parameters in deep RL by injecting a simplicity bias. SimBa consists of three components: (i) an observation normalization layer that standardizes inputs with running statistics, (ii) a residual feedforward block to provide a linear pathway from the input to output, and (iii) a layer normalization to control feature magnitudes. By scaling up parameters with SimBa, the sample efficiency of various deep RL algorithms—including off-policy, on-policy, and unsupervised methods—is consistently improved. Moreover, solely by integrating SimBa architecture into SAC, it matches or surpasses state-of-the-art deep RL methods with high computational efficiency across DMC, MyoSuite, and HumanoidBench. These results demonstrate SimBa's broad applicability and effectiveness across diverse RL algorithms and environments.
           </p>
         </div>
       </div>
@@ -161,127 +145,60 @@
 <!-- End paper abstract -->
 
 
-<!-- Image carousel -->
+<!-- main body -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
+      <h2 class="title is-3">Method Overview</h2>
+      This work propose the SimBa network, an architecture designed to embed simplicity bias into deep RL. The architecture comprises Running Statistics Normalization, Residual Feedforward Blocks, and Post-Layer Normalization. By amplifying the simplicity bias, SimBa allows the model to avoid overfitting for highly overparameterized configurations.
+      <img src="static/images/simba_architecture.png">
+      As shown in the figure above, first, RSNorm standardizes input observations by tracking the running mean and variance of each input dimension during training, preventing features with disproportionately large values from dominating the learning process. The normalized observation is then embedded into a vector using a linear layer. After that, features passes through a certain number of pre-layer normalization residual feed-forward block, introducing simplicity bias by allowing a direct linear pathway from input to output. To ensure that activations remain on a consistent scale before predicting the policy or value function, we apply layer normalization after the final residual block.
     </div>
   </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
 
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
+      <h2 class="title is-3">Results</h2>
+      To quantify simplicity bias in SimBa, we analyzed SimBa's key components—such as residual connections and layer normalization—increase the simplicity bias score, biasing the architecture toward simpler functional representations at initialization.When combined, these components induce a stronger preference for low-complexity functions (i.e., high simplicity score) than when used individually. Figure (b) reveals a clear relationship between simplicity bias and performance: architectures with higher simplicity bias scores lead to enhanced performance. Specifically, compared to the MLP, adding residual connections increases the average return by 50 points, adding layer normalization adds 150 points, and combining all components results in a substantial improvement of 550 points
+      <img src="static/images/component_analysis.png" style="display: block; margin: 0 auto;">
+      SimBa achieves the highest simplicity bias score compared to the experimented architectures, demonstrating its strong preference for simpler solutions. while the MLP failed to scale with increasing network size, BroNet, SpectralNet, and SimBa all showed performance improvements as their networks scaled up. Importantly, the scalability of each architecture was strongly correlated with its simplicity bias score, where a higher simplicity bias led to better scalability. SimBa demonstrated the best scalability, supporting the hypothesis that simplicity bias is a key factor in scaling deep RL models.
+      <img src="static/images/architecture_comparison.png"  style="display: block; margin: 0 auto;">
     </div>
   </div>
 </section>
-<!-- End youtube video -->
+<!-- End main body -->
 
-
-<!-- Video carousel -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
+      <h2 class="title is-3">Lessons and Opportunities</h2>
+      <div class="container">
+        <h3 class="title is-4">Lessons</h3>
+        Historically, deep RL has suffered from overfitting, necessitating sophisticated training protocols and implementation tricks to mitigate these issues. These complexities serve as significant barriers for practitioners with limited resources, hindering the effective usage of deep RL methods. In this paper, we improved performance by solely modifying the network architecture while keeping the underlying algorithms unchanged. This approach simplifies the implementation of SimBa, making it easy to adopt. By incorporating simplicity bias through architectural design and scaling up the number of parameters, the network converges to simpler, generalizable functions, matching or surpassing state-of-the-art deep RL methods. We also believe that SimBa follows the insights from Richard Sutton’s Bitter Lesson: al- though task-specific designs can yield immediate improvements, an approach that scales effectively with increased computation may provide more sustainable benefits over the long term.
+        <img>
+      </div>
+      <img>
+      <div class="container">
+        <h3 class="title is-4">Opportunities</h3>
+        Our exploration of simplicity bias has primarily concentrated on the network architecture; however, optimization techniques are equally vital. Strategies such as dropout, data augmentation, and diverse optimization algorithms can further enhance convergence to simpler functions during training. Integrating these techniques with continued parameter scaling presents a promising avenue for future research in deep RL. Furthermore, while our focus has been on the basic model-free algorithm SAC, there exists considerable empirical success with model-based algorithms. Preliminary investigations into applying SimBa to model-based RL, specifically TD-MPC2, have shown promise. We encourage the research community to collaboratively pursue these avenues to advance deep RL architectures and facilitate their successful application in real-world scenarios.
+        <img>
       </div>
     </div>
   </div>
 </section>
-<!-- End video carousel -->
-
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
-
 
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>@inproceedings{
+    lee2025simba,
+    title={SimBa: Simplicity Bias for Scaling Up Parameters in Deep Reinforcement Learning},
+    author={Hojoon Lee and Dongyoon Hwang and Donghu Kim and Hyunseung Kim and Jun Jet Tai and Kaushik Subramanian and Peter R. Wurman and Jaegul Choo and Peter Stone and Takuma Seno},
+    booktitle={The Thirteenth International Conference on Learning Representations},
+    year={2025},
+    url={https://openreview.net/forum?id=jXLiDKsuDo}
+}</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
@@ -294,9 +211,10 @@
         <div class="content">
 
           <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
+            </br></br>
+            Template borrowed from <a href="https://humanoid-bench.github.io/">Humanoid-bench</a> and <a href="https://xingyu-lin.github.io/spawnnet/">SpawnNet</a>
           </p>
 
         </div>
